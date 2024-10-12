@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find your room with Uniplaces using promo code for discount">
+    <link rel="stylesheet" href="styles.css">
+    <title>Find Your Room with Uniplaces!</title>
+</head>
+<body>
+    <header>
+        <h1>Find Your Room with Uniplaces!</h1>
+        <p>Use my promo code <span id="promoCode" style="cursor: pointer; color: #ffd700;" onclick="copyPromoCode()">UNI4PM93A</span> for 10% off your service fee!</p>
+        <button onclick="copyPromoCode()">Copy Promo Code</button>
+        <a href="https://www.uniplaces.com">Book Now</a>
+    </header>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>I'm a full-stack software engineer sharing this amazing opportunity for students looking for accommodation!</p>
+        </section>
+        <div class="contact">
+            <section>
+                <h2>Contact Me</h2>
+                <p>Feel free to reach out if you have any questions!</p>
+                <p>Email: <a href="mailto:nadjibmouhoun1@gmail.com">nadjibmouhoun1@gmail.com</a></p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 Rent with Discount. All rights reserved.</p>
+    </footer>
+    <script>
+        function copyPromoCode() {
+            const promoCode = "UNI4PM93A"; // The promo code to copy
+            navigator.clipboard.writeText(promoCode).then(() => {
+                alert("Promo code copied: " + promoCode);
+            }).catch(err => {
+                console.error('Failed to copy: ', err);
+            });
+        }
+    </script>
+</body>
+</html>

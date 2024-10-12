@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background color for contrast */
+}
+
+header {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    padding: 40px;
+    text-align: center;
+    font-size: x-large;
+}
+
+h1 {
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    margin-bottom: 50px; /* Space for footer */
+    margin-top: 5%;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#promoCode {
+    font-weight: bold;
+    cursor: pointer;
+    color: #ffd700; /* Gold color for visibility */
+}
+
+footer {
+    background-color: #333; /* Dark footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact {
+    font-size: 0.9em; /* Smaller font size for the contact section */
+    margin-top: 40px; /* Space above */
+}
+.contact  section p a {
+    color: #000;
+}

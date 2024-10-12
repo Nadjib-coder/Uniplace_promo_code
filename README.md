@@ -1,2 +1,2 @@
 # Uniplace_promo_code
-i want to share this amazing opportunity for students looking for accommodation!
+I'm a full-stack software engineer sharing this amazing opportunity for students looking for accommodation!
